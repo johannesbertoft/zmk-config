@@ -73,16 +73,16 @@
         left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Esc     │ "@       │  $¤      │  %       │ &        │   │          │          │          │          │
-           &kp ESC   &kp AT     &kp DLLR   &kp PRCNT   &kp dkAMPS       &trans     &trans     &trans     &trans     &trans    
+        //│  Esc     │ @        │  $       │  %       │ &        │   │          │          │          │          │
+           &kp ESC   &kp RA(N2)   &kp RA(N4)  &kp PRCNT &kp dkAMPS       &trans     &trans     &trans     &trans     &trans    
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  /{      │  ([      │  ])      │  =}      │  ¨^~     │   │          │          │          │          │          │
-            &trans    &kp dkLPAR &kp dkRPAR &kp dkEQUAL &kp dkCARET     &trans     &trans     &trans     &trans     &trans    
+        //│  {       │  [      │  ]        │  }      │  ¨^~     │   │          │          │          │          │          │
+            &kp RA(N7) &kp RA(N8) &kp RA(N9) &kp RA(N0) &kp dkCARET     &trans     &trans     &trans     &trans     &trans    
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │ #        │ <>\      │ `´|      │   │          │          │          │          │          │
-            &trans     &trans     &kp HASH   &trans     &trans              &trans     &trans     &trans     &trans     &trans    
+        //│  (       │  )       │ #        │ <>\      │ `´|      │   │          │          │          │          │          │
+            &kp LS(N8) &kp LS(N9) &kp HASH   &trans     &trans          &trans     &trans     &trans     &trans     &trans    
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans   &trans         &ht RALT  &trans
+                                             &trans   &trans          &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
