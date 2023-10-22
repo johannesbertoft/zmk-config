@@ -83,7 +83,7 @@
         //│          │          │ #        │ <>\      │ `´|      │   │          │          │          │          │          │
         &trans     &trans     &kp HASH   &trans     &trans              &trans     &trans     &trans     &trans     &trans    
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &ht RALT     &trans
+                                             &ht LCTRL     &ht RGUI         &ht RALT  &ht RSHFT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
