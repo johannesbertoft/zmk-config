@@ -18,7 +18,6 @@
 #define dkLPAR ASTRK
 #define dkEQUAL RPAR
 #define dkCARET RBKT
-#define dkMINUS FSLH
 
 / {
     behaviors {
@@ -83,7 +82,7 @@
         //│          │          │ #        │ <>\      │ `´|      │   │          │          │          │          │          │
             &trans     &trans     &kp HASH   &trans     &trans              &trans     &trans     &trans     &trans     &trans    
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &ht LCTRL   &trans         &ht RALT  &ht RSHFT
+                                             &trans   &trans         &ht RALT  &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
