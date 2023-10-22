@@ -109,7 +109,7 @@
         test_layer_left {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-            &kp QMARK &kp PIPE2   &kp UNDER   &kp PLUS   &trans         &kp N1     &kp N2    &kp N3     &kp RBKT   &kp TILDE
+            &kp QMARK &kp PIPE2   &kp UNDER   &kp KP_PLUS   &trans         &kp N1     &kp N2    &kp N3     &kp RBKT   &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
             &kp BSLH   &kp AT     &kp COLON   &kp LT   &kp GT           &trans     &trans    &trans     &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
